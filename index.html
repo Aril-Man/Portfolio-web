@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azriel Fauzi Hermansyah | Backend Developer</title>
+    <meta name="description" content="Portfolio of Azriel Fauzi Hermansyah, a passionate Backend Developer.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Azriel<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Azriel Fauzi Hermansyah</h1>
+                <h2 class="headline">Backend Developer <span class="accent">|</span> AI Enthusiast</h2>
+                <div class="cta-buttons">
+                    <a href="#experience" class="btn btn-primary">View Experience</a>
+                    <a href="https://drive.google.com/file/d/11ifXCCQdGHM03lChNmxPkFP7o5Zzk6jg/view?usp=drive_link"
+                        class="btn btn-outline">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <!-- 3D Canvas Container -->
+                <div id="canvas-container"></div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="100">
+                    <img src="profile.jpg" alt="Azriel Fauzi Hermansyah">
+                </div>
+                <div class="about-text-container" data-aos="fade-left" data-aos-delay="200">
+                    <p class="about-text">
+                        A passionate Backend Developer and AI Enthusiast with a focus on creating robust, scalable
+                        server-side applications. Experienced in designing efficient database schemas and implementing
+                        complex algorithms. Eager to contribute to innovative teams and solve real-world problems
+                        through code.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience</h2>
+            <div class="timeline">
+                <!-- Entry 1 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Fulltime</div>
+                        <h3 class="timeline-role">Backend Developer</h3>
+                        <h4 class="timeline-company">Inilah.com</h4>
+                    </div>
+                </div>
+                <!-- Entry 2 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Freelance</div>
+                        <h3 class="timeline-role">Backend Developer</h3>
+                        <h4 class="timeline-company">Vascomm</h4>
+                    </div>
+                </div>
+                <!-- Entry 3 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Fulltime</div>
+                        <h3 class="timeline-role">Backend Developer</h3>
+                        <h4 class="timeline-company">Wetalk.id</h4>
+                    </div>
+                </div>
+                <!-- Entry 4 -->
+                <div class="timeline-item experience-hidden" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Intern</div>
+                        <h3 class="timeline-role">Full Stack Developer</h3>
+                        <h4 class="timeline-company">Bangunindo Teknusa Jaya</h4>
+                    </div>
+                </div>
+                <!-- Entry 5 -->
+                <div class="timeline-item experience-hidden" data-aos="fade-up" data-aos-delay="500">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Intern</div>
+                        <h3 class="timeline-role">Web Developer</h3>
+                        <h4 class="timeline-company">Kejar.id</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more-container" data-aos="fade-up">
+                <button id="load-more-btn" class="btn btn-outline">Load More <i
+                        class="fas fa-chevron-down"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-cards">
+                <!-- Entry 1 -->
+                <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-icon"><i class="fas fa-school"></i></div>
+                    <h3 class="card-title">SMK Wikrama</h3>
+                    <span class="card-date">Oct 2019 - Jun 2022</span>
+                    <p class="card-desc">Software Engineering</p>
+                </div>
+                <!-- Entry 2 -->
+                <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon"><i class="fas fa-university"></i></div>
+                    <h3 class="card-title">Institut Teknologi Bisnis Swadarma</h3>
+                    <span class="card-date">Sep 2022 - Present</span>
+                    <p class="card-desc">Informatics Engineering</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Backend Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="skill-category-title"><i class="fas fa-code"></i> Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                <!-- Database -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="skill-category-title"><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <!-- Devops Tools -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="skill-category-title"><i class="fas fa-tools"></i> Devops Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="skill-category-title"><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Goland</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">DBeaver</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Azriel Fauzi Hermansyah. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/azriel-fauzi-hermansyah/" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Aril-Man" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:azrielfauzi23@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
